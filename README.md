@@ -2,6 +2,12 @@
 
 A full-stack vegetable e-commerce platform built with **React, Node.js, Express.js, and MongoDB**. VeggieKart provides a complete shopping experience for users along with an admin dashboard for product inventory and order management.
 
+## 🎥 Project Demo
+
+[![VeggieKart Demo](screenshots/demo-thumbnail.png)](https://youtu.be/xKRnbNTgqKM?si=EI2a-A6e6shijgg8)
+
+**▶️ Watch the full project demo**
+
 ## 🚀 Features
 
 ### 👤 User Features
