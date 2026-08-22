@@ -3,6 +3,8 @@ import axios from "axios";
 import { AppContext } from "../AppContext/Appcontext";
 
 export const VeggieChatbot = () => {
+  const { products, islogin, userdata } = useContext(AppContext);
+
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
@@ -13,7 +15,6 @@ export const VeggieChatbot = () => {
   ]);
   const [isTyping, setIsTyping] = useState(false);
   const scrollRef = useRef(null);
-  const { products } = useContext(AppContext);
 
   useEffect(() => {
     scrollRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -60,6 +61,9 @@ export const VeggieChatbot = () => {
   const handleKeyDown = (e) => {
     if (e.key === "Enter") handleSend();
   };
+
+  // Only show to logged-in users with role "user" — hidden for guests and admins
+  if (!islogin || userdata?.role !== "user") return null;
 
   return (
     <>
