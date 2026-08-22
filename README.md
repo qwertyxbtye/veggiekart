@@ -81,14 +81,6 @@ Uploaded files are temporarily stored on the server and removed after being succ
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-
-![VeggieKart Home](screenshots/home.png)
-
-### 🥕 Products
-
-![VeggieKart Products](screenshots/products.png)
-
 ### 🔐 Login
 
 ![VeggieKart Login](screenshots/login.png)
@@ -96,6 +88,14 @@ Uploaded files are temporarily stored on the server and removed after being succ
 ### 📝 Register
 
 ![VeggieKart Register](screenshots/register.png)
+
+### 🏠 Home Page
+
+![VeggieKart Home](screenshots/home.png)
+
+### 🥕 Products
+
+![VeggieKart Products](screenshots/products.png)
 
 ### 🛒 Shopping Cart
 
